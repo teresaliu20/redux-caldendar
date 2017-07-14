@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: #E5004C;
+    font-family: 'Avenir';
+    font-weight: bold;
+    overflow: none;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #ddd;
+    border-width: 0.5px;
+    height: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    border-color: #ddd;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    
+}
+.page-title-wrapper {
+    flex: 1;
+    display: flex;
+    padding-left: 70px;
+    font-size: 32px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.page-title {
+    float: right;
+}
+.your-day {
+    margin: 0;
+}
+.one-page {
+    margin: 0;
+    color: #FFF000;
+    font-size: 72px;
+}
+.calender {
+    flex: 1;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 0px 80px 0px 0px;
+}
+.timeslot {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.time-container {
+    width: 20vw;
+    color: grey;
+    height: 50px;
+}
+.event-container {
+    width: 50vw;
+    color: brown;
+    height: 50px;
+}
+.description-container {
+    width: 30vw;
+    color: brown;
+    height: 50px;
+}
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: #FEAB40;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.modal {
+    font-size: 18px;
+}
